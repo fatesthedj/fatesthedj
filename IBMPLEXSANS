@@ -1,0 +1,77 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #fdfcf9;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: -0.5px;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+/* Links */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #ff0054;
+  border-bottom: 1px solid #ff0054;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.5rem;
+  max-width: 60ch;
+}
+
+/* Layout Containers */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Buttons (if needed) */
+button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #005ecb;
+}
